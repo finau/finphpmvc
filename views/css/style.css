@@ -1,0 +1,40 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    border-bottom: 1px solid #1a3187;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 5px;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    color: #1a3187;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #1a3187;
+    border-bottom: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul .active a {
+    color: #ffffff;
+}
+
+nav ul .active {
+    background-color: #1a3187;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=url], input[type=tel], input[type=date]{
+    padding: 5px;
+}

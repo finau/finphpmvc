@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Configuration file use to store site settings
+ */
 $config = [];
 $config['database'] = [
     'db_name' => 'lamp',

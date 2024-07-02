@@ -1,6 +1,14 @@
 <?php
 
 include "models/EntityInterface.php";
+
+/**
+ * The user model class that handle database tasks
+ * We implement the interface EntityInterface
+ *
+ * Note: the way we handle XSS, SQL Injection we pass the request variables to the database prepare statement
+ *  to sanitize the data before use on database queries.
+ */
 class User implements EntityInterface {
 
     protected int $id;
@@ -100,7 +108,7 @@ class User implements EntityInterface {
 
     public function getById(int $id) : User {
 
-        $stm = $this->database->prepare('SELECT * FROM user WHERE id = ?');
+        $stm = $this->database->prepare('SELECT * FROM users WHERE id = ?');
         $stm->bind_param("i", $id);
         $stm->execute();
         $result = $stm->get_result();

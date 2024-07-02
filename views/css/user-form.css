@@ -1,0 +1,40 @@
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80%;
+    min-width: 500px;
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
+
+.container .row {
+    display: flex;
+}
+
+.container .row .item {
+    flex: 1 1 0;
+    border: 1px solid #fcfcfc;
+    padding: 10px;
+}
+
+.container form .row {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.container form label {
+    width: 120px;
+}
+
+.success {
+    background-color: #d5f5d6;
+    border: 1px solid #b8deb9;
+    padding: 10px;
+}
+
+.error {
+    background-color: #f7eae9;
+    border: 1px solid #debcb8;
+    padding: 10px;
+}

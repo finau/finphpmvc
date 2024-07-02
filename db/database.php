@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Database class, we use singleton design pattern to provide database connection
+ */
 class Database {
 
     protected static $connection;

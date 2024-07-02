@@ -1,0 +1,56 @@
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80%;
+    min-width: 500px;
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
+
+.container .row {
+    display: flex;
+}
+
+.container .row:not(.header-row):hover {
+    background-color: #fcf1f0;
+}
+
+
+.container .row .item {
+    flex: 1 1 0;
+    border: 1px solid #fcfcfc;
+    padding: 10px;
+}
+
+.container .header-row {
+    background-color: #666666;
+    color: #ffffff;
+}
+
+.container .row-color1 {
+    background-color: #e0e0de;
+}
+
+.container .row-color2 {
+    background-color: #ebebeb;
+}
+
+#dialog #dialog-content div {
+    padding: 5px;
+}
+
+#dialog .close {
+    margin-top: 10px;
+    float: right;
+}
+
+/** Style for the add user form  **/
+.container form .row {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.container form label {
+    width: 120px;
+}
