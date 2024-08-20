@@ -8,6 +8,11 @@ Features:
 - Show how to response in JSON format.
 - Show how you separate your view from your controller and model.
 
+Enhancement @todo: These improvement can be added to this framwork to enchance it's capability.
+- Build auto-loader
+- A router system
+- Build modular system to allow plugins
+  
 You can watch this youtube video which show a basic usage of this framework.
 
 https://youtu.be/3CX0LF1F-NU
